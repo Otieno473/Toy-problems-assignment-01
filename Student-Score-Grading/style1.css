@@ -21,6 +21,13 @@
   input {
     margin: 10px ;
   }
-  .form-button{
-color: rgb(243, 67, 4);
+    #btn{
+    color: rgb(0, 255, 34);
   }
+  #h1{
+    color: rgb(2, 90, 61);
+  }
+  #txt{
+    color: red;
+    font-size: 12px;
+      }
