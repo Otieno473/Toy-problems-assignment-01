@@ -1,0 +1,21 @@
+.body {
+    display: flex;
+    align-items: relative;
+    justify-content: relative;
+    height: 100vh;
+ }
+ .paragraph{
+    font-size: 2rem;
+    color: #ff0000;
+    }
+ 
+ .driverspeed{
+     padding: 7px;
+     border: none;
+    color: rgb(0, 255, 98);
+ }
+ 
+ #btn {
+     background-color: #3498db;
+ }
+ 
