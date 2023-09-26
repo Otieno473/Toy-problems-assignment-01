@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student calculate</title>
+	<!-- link for font -->
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- main html -->
+	<div class="container">
+	<h1>Student score and Grade</h1>
+	<div class="body">
+		<div class="app">
+		<div class="form-group">
+			<!-- option for taking the input -->
+			<input
+			type="text"
+			class="form-control"
+			placeholder="Enter student score"
+			id="score"
+			/>
+		
+		<div>
+			<input
+			type="button"
+			value="show grade"
+			class="form-button"
+			onclick="getGrades()"
+			/>
+		</div>
+		</div>
+	</div>
+	
+	<!--adding external javascript file-->
+	<script src="script.js"></script>
+</body>
+</html>
