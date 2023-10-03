@@ -8,11 +8,11 @@
 <body>
 	<!--The code below generates a basic HTML form with a field for student marks and a button to compute the grade. When a user hits the button, the calculateGrade function is invoked. This function reads the value entered into the input field, determines the grade associated with it, and displays the result in a paragraph element below the form.-->
 	<div>
-        <h1>Student Grade Calculator</h1>
+        <h2>Student Grade Calculator</h2>
         <form>
           <label for="score">Enter student score:</label>
           <input type="number" id="score" name="student-score" min="0" max="100">
-          <button type="button" onclick="calculateGrade()">Calculate</button>
+          <button id="btn" type="button" onclick="generateStudentGrade()">Generate Grade</button>
         </form>
         <p id="grade"></p>
     </div>

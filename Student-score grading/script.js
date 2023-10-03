@@ -1,7 +1,7 @@
 /*The calculateGrade function uses a simple conditional if-else statements to return grades.
 it determines the grade depending on the student score and it dispay the grade using return function The paragraph element is used to display the grade.*/
 
-function calculateGrade() {
+function generateStudentGrade() {
   const score = parseInt(document.getElementById("score").value);
   let grade;
 
