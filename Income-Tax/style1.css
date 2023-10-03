@@ -1,23 +1,62 @@
-
-@media screen and (max-width: 425px) {
-    .body{
-        background-color: rgb(213, 213, 247);
-        text-align: center;
-        color: brown;
-    }
+.body{
+    background-color: powderblue;
+    font-size:14px;
+    font-family:Verdana;
+    margin:auto;
 }
-    .row form .row .left-row {
-        padding-right: 0;
-    }
-    .row.row .left-row h5 {
-        font-size: 0.8rem;
-    }
-    .row form .row .right-r label {
-        font-size: 1rem;
-    }
-    .section-row form .calc-btn {
-        width: 92% !important;
-        height: 50px;
-        margin: 1rem 0;
-        transform: translateX(0);
-    }
+h2 {
+    color: rgb(19, 51, 180);
+    text-align: center;
+    font-family: verdana;
+  font-size: 20px;
+  border: 2px solid powderblue;
+  padding: 30px;
+  }
+  label {
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    float: center;
+    margin-top: 20px;
+
+  
+
+  }
+  label:after { content: ": " }
+  #button:hover {
+    background-color: orange;
+    box-shadow: 3px 3px 5px grey;
+  }
+#salary:{
+    align-content: center;
+    padding: 0px 10px;
+    margin: 8px 10;
+    box-sizing: border-box;
+    input[type=text]:focus {
+  background-color: rgb(0, 69, 92);
+
+
+}
+#salary [type=text]:focus {
+    background-color: lightblue;
+  }
+}
+#basic-salary{
+
+}
+#btn{
+  border: none;
+ 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 8px;/*rounded button*/
+  outline: 2px solid gray;
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(24, 5, 163);
+  font: inherit;
+}
