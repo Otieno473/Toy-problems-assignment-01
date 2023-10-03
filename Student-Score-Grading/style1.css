@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #555c55;
+    font-size: 12px;
+  }
+    
+  .head{
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+    
+  .body{
+    flex: 0;
+    padding: 50px;
+  }
+  input {
+    margin: 10px ;
+  }
+    #btn{
+    color: rgb(0, 255, 34);
+  }
+  #h1{
+    color: rgb(2, 90, 61);
+  }
+  #txt{
+    color: red;
+    font-size: 12px;
+      }

@@ -1,0 +1,23 @@
+.body{
+    color: azure;
+    text-align: justify;
+    padding: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+#h1{
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #btn{
+        color: aqua;
+        position: relative;
+    }
+    #benefits{
+        color: aqua;
+    }
+    #total-Income{
+        color: aqua;
+    }

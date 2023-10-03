@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Checker</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body class="body">
+    <form class="driverspeed">
+        <p class="paragraph">Speed limit:
+        <input type="number" name="speedlimit" value="70"> km/h
+        </p>
+        <p>Driver speed: <input type="number" id="driverspeed"> km/h
+        <div id="driver-speed-slider"></div>
+        </p>
+        <div>
+			<button id="btn" onclick="checkSpeed()">Status</button>
+		</div>
+      </form>
+      <div id="license status"></div>
+      <!--adding external javascript file-->
+        <script src="./speed.js"></script>
+</body>
+</html>
